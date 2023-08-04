@@ -1,0 +1,108 @@
+body{
+  background:linear-gradient(rgba(238, 218, 218, 0.2),rgba(220, 206, 206, 0.2)),whitesmoke;  
+  
+}
+.maincontent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 20px; */
+}
+.left{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #bac5d3; */
+
+}
+.x{
+  /* background-color: #dddfe2; */
+}
+.left .logo{
+  background-image: url(logo.svg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  position: relative;
+  left: -28px;
+  max-width: 301.06px;
+  height: 106px;
+  
+  
+}
+.left .logocont{
+  position: relative;
+  top: -35px;
+  max-width: 368px;
+  line-height: 28px;
+  width: auto;
+  font-weight:lighter;
+  font-size: 24px;
+}
+
+.right{
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  /* flex-direction: column; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  /* background-color: #42b72a; */
+}
+.right .login{
+  width: 396px;
+  height: 456px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  z-index: 100;
+  
+}
+.login input[type="text"],input[type="password"]{
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+  height: 22px;
+  border:1px solid #dddfe2;
+  border-radius: 6px;
+}
+.login .loginbtn{
+  height: 48px;
+  width: 332px;
+  padding: 0 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1877f2;
+  color: white;
+}
+.login a{
+  text-decoration: none;
+  color: #1877f2;
+}
+.login .hr{
+  border-bottom: 1px solid #dddfe2;
+  width: 90%;
+}
+.login .crtnac{
+  width: 195px;
+  height: 48px;
+  border: none;
+  border-radius: 6px;
+  background-color: #42b72a;
+  color: white;
+}
+button:hover{
+  cursor: pointer;
+}
+.lbottom span{
+  
+  font-weight: bold;
+}
